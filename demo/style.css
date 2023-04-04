@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul{
+    margin-left: 150px;
+}
+.header il{
+    margin-left: 12px;
+}
+.header #btn{
+   margin-right: 150px;
+}
+.header .logo{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    color: rgb(254,106, 132);
+}
+#btn{
+    display: flex;
+}
+#btn .btn-buy{
+    width: 102px;
+    height: 32px;
+    border-radius: 18px;
+    background-color: rgb(254,106, 132);
+    color: white;
+    border: none;
+    margin-right: 12px;
+}
+hr{
+    border: 1px solid rgb(254,106, 132);
+}
